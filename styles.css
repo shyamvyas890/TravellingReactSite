@@ -1,0 +1,158 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color:black;
+}
+section{
+    background-color: white;
+    margin-top:0px;
+}
+.pictureOfPlace{
+    border-radius: 5px;
+    width: 125px;
+    height: 168px;
+    /* padding-top:10px; */
+}
+
+.locationIcon {
+    width: 7px;
+height: 9.55px;
+margin-right:5px;
+}
+
+.theLocation {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+    margin-right:5px;
+}
+
+.mapsUrl {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+
+.theTitle{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+color: #2B283A;
+padding-top:8px;
+}
+
+.dates{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10.24px;
+line-height: 12px;
+color: #2B283A;
+padding-bottom:10px;
+}
+
+.description{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+color: #2B283A;
+width:326px;
+}
+
+
+.card {
+    width:470px;
+    height:168px;
+    margin-left:auto;
+    margin-right: auto;
+    padding-top:15px;
+    padding-bottom:15px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    width:326px;
+    height:168px;
+
+}
+
+.intro{
+    height:65px;
+    width:326px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.desc {
+    height:65px;
+    width:326px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.firstLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    height:15px;
+    align-items: center;
+}
+
+nav{
+    width:550px;
+    height:55px;
+    background: #F55A5A;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+}
+
+.globeLogo{
+    width: 24px;
+height: 24px;
+background: #DADADA;
+margin-right:5px;
+}
+
+.travelJournal {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14.4608px;
+line-height: 18px;
+letter-spacing: -0.075em;
+color: #FFFFFF;
+}
+
+.cards-list {
+    width:550px;
+    margin:auto;   
+}
+
+p{
+    margin-top:0;
+    margin-bottom:0;
+}
